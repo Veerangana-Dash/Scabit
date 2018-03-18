@@ -37,5 +37,4 @@ for article in soup.find_all('div',class_='article'):
 
 	summary=article.p.text
 	print(summary)
-
 	print()
